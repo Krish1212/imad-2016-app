@@ -1,23 +1,13 @@
 body {
     font-family: sans-serif;
     background-color: lightgrey;
-    cursor:default;
+    margin-top: 75px;
 }
-header{
-    background-color:#EDC9AF;
-}
+
 .center {
     text-align: center;
 }
-.right{
-    text-align:right;
-}
-.float{
-    float:left;
-}
-.clear{
-    clear:both;
-}
+
 .text-big {
     font-size: 300%;
 }
@@ -28,65 +18,4 @@ header{
 
 .img-medium {
     height: 200px;
-}
-.img-small-left{
-    height:100px;
-    background-color:#EDC9AF;
-}
-.imad{
-    font-size:2em;
-    width:50%;
-    text-align:center;
-}
-.myname {
-    font-size:2em;
-    width:92%;
-    text-align:right;
-    text-decoration:underline;
-}
-.box-block{
-    position:relative;
-    width:22%;
-    height:300px;
-    max-height:300px;
-    border:1px solid #aaa;
-    margin: 25px 18px 0 16px;
-    background:url('bgtext.png') no-repeat;
-}
-.head1{
-    position:absolute;
-    color:white;
-    width:100%;
-    padding:10px 0;
-    font-size:30px;
-    text-align:center;
-    background-color:#176358;
-    bottom:0;
-}
-.hangup{
-    position:absolute;
-    top:0;
-    display:none;
-    background-color:#176358;
-    color:white;
-    padding:0 10px;
-    text-align:left;
-}
-.hangup ul{
-    list-style-type:square;
-    line-height: 30px;
-    margin:0;
-    padding:0 10px;
-}
-.box-block:hover .hangup{
-    bottom:55px;
-    width:93.5%;
-    display:block;
-    overflow-y:auto;
-}
-.box-block:hover .head1{
-    opacity:0.3;
-}
-.float25{
-    float:left;
 }
