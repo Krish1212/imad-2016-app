@@ -1,13 +1,23 @@
 body {
     font-family: sans-serif;
     background-color: lightgrey;
-    margin-top: 75px;
+    cursor:default;
 }
-
+header{
+    background-color:#EDC9AF;
+}
 .center {
     text-align: center;
 }
-
+.right{
+    text-align:right;
+}
+.float{
+    float:left;
+}
+.clear{
+    clear:both;
+}
 .text-big {
     font-size: 300%;
 }
@@ -18,4 +28,72 @@ body {
 
 .img-medium {
     height: 200px;
+}
+.img-small-left{
+    height:100px;
+    background-color:#EDC9AF;
+}
+.imad{
+    font-size:2em;
+    width:50%;
+    text-align:center;
+}
+.myname {
+    font-size:2em;
+    width:92%;
+    text-align:right;
+    text-decoration:underline;
+}
+.box-block{
+    position:relative;
+    width:22%;
+    height:auto;
+    margin: 75px 18px 0 16px;
+}
+.head1{
+    position:absolute;
+    color:white;
+    width:100%;
+    padding:10px 0;
+    font-size:30px;
+    text-align:center;
+    background-color:#176358;
+    bottom:0;
+}
+.hangup{
+    padding:0 10px;
+    text-align:left;
+    border-top:2px solid #176358;
+}
+.hangup ul{
+    list-style-type:square;
+    line-height: 30px;
+    margin:0;
+    padding:0 10px;
+}
+.box-block:hover .hangup{
+    bottom:55px;
+    width:93.5%;
+    display:block;
+    overflow-y:auto;
+}
+.box-block:hover .head1{
+    background-color:white;
+}
+.float25{
+    float:left;
+}
+.subhead{
+    font-size:30px;
+    text-align:center;
+}
+.subpages{
+    padding:0 25%;
+    margin:0 auto;
+}
+.footer{
+    position:relative;
+    width:100%;
+    height:auto;
+    margin:0 auto;
 }
