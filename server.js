@@ -78,7 +78,7 @@ function createPage(data){
                     </body>
                 </html>`;
     return myhtml;
-};
+}
 
 var counter = 0;
 app.get('/counter', function(req, res) {
